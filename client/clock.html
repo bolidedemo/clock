@@ -6,7 +6,7 @@
   <svg xmlns="http://www.w3.org/2000/svg"
        width="350" height="350"
        viewBox="-110 -110 220 220"
-       style="display: block; margin: 0 auto;">
+       style="display: block; margin: 0 auto; background-color: red">
 
     <!-- bounding circle -->
     <circle style="stroke: black; fill: #eee;"
@@ -16,10 +16,10 @@
     {{#with handData}}
       <line {{radial hourDegrees 0 .55}}
             style="stroke-width: 6px;
-                   stroke: green;" />
+                   stroke: red;" />
       <line {{radial minuteDegrees 0 .85}}
             style="stroke-width: 4px;
-                   stroke: blue;" />
+                   stroke: red;" />
       <line {{radial secondDegrees 0 .95}}
             style="stroke-width: 2px;
                    stroke: red;" />
